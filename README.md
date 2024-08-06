@@ -53,9 +53,9 @@ for i in range(5):
     # Store c_best_i, and BA_test_i
 
 # Return Average Test Balanced Accuracy BA_test and & The Best Model Configurations [c_best_i for i in range(5)]
+```
 
-
-## Citation
+# Citation
 If you find this work useful to your research, please consider citing our publications (This is a temporary citation).
 
 ```
