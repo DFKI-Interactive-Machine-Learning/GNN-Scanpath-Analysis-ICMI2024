@@ -59,16 +59,21 @@ for i in range(5):
 If you find this work useful to your research, please consider citing our publications (This is a temporary citation).
 
 ```
-@inproceedings{mohamed_selim_perceived_2024,
-  title={Perceived Text Relevance Estimation Using Scanpaths and GNNs},
-  author={Mohamed Selim, Abdulrahman and Bhatti, Omair Shahzad and Barz, Michael and Sonntag, Daniel},
-  booktitle={INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION (ICMI '24)},
-  pages={To appear},
-  year={2024},
-  organization={ACM},
-  address={San Jose, Costa Rica},
-  doi={10.1145/3678957.3685736},
-  isbn={979-8-4007-0462-8/24/11},
-  note={Accepted}
+@inproceedings{10.1145/3678957.3685736,
+author = {Mohamed Selim, Abdulrahman and Bhatti, Omair Shahzad and Barz, Michael and Sonntag, Daniel},
+title = {Perceived Text Relevance Estimation Using Scanpaths and GNNs},
+year = {2024},
+isbn = {9798400704628},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3678957.3685736},
+doi = {10.1145/3678957.3685736},
+abstract = {A scanpath is an important concept in eye tracking that represents a person’s eye movements in a graph-like structure. Passive gaze-based interfaces, in which users do not consciously interact using their eyes, typically interpret users’ scanpaths to enable adaptive and personalised interaction. Despite the benefits of graph neural networks (GNNs) in graph processing, this technology has not been considered for that purpose. An example application is perceived relevance estimation, which still suffers from low classification performance. In this work, we investigate how and whether GNNs can be used to analyse scanpaths for readers’ perceived relevance estimation using the gazeRE dataset. This dataset contains eye tracking data from 24 participants, who rated the relevance of 12 short and 12 long documents in relation to a given query. The relevance was assigned either to an entire short document or to each paragraph within a long document, which allowed us to investigate two different GNN tasks. For comparison, we reproduced the gazeRE baseline using Random Forest and Support Vector classifiers, and an additional Convolutional Neural Network (CNN) from the literature. All models were evaluated using leave-users-out cross-validation. For short documents, the GNNs surpassed the baseline methods, with certain experiments showing an absolute balanced accuracy improvement of 7.6\% and 14.3\% over the CNN and gazeRE baselines, respectively. However, similar improvements were not observed in long documents. This work investigates and discusses the future potential of using GNNs as a scanpath analysis method for passive gaze-based applications, such as implicit relevance estimation.},
+booktitle = {Proceedings of the 26th International Conference on Multimodal Interaction},
+pages = {418–427},
+numpages = {10},
+keywords = {Eye Tracking, GNN, Passive Gaze-based Application, Scanpath},
+location = {San Jose, Costa Rica},
+series = {ICMI '24}
 }
 ```
